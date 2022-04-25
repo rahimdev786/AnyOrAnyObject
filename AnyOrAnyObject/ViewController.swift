@@ -14,6 +14,9 @@
  
  to retrcet protocal use for struct and enum use anyobject. so that protcal used only for class
  
+ //https://medium.com/@mimicatcodes/any-vs-anyobject-in-swift-3-b1a8d3a02e00#:~:text=Any%20and%20AnyObject%20are%20two,instance%20of%20any%20class%20type.
+ 
+ 
  
  */
 
@@ -28,8 +31,6 @@ class ViewController: UIViewController {
         
         let data:[Any] = [1,23333,90,90.09,"asasassa","as","a",32121.09890]
         print(data)
-        
-        
         
         //so here can not used anyobject
         //let data1:[AnyObject] = ["sacasc",23221,334.34543]
